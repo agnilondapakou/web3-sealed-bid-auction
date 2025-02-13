@@ -3,7 +3,7 @@ const { expect } = require("chai");
 
 async function main() {
     // Remplacez par l'adresse du token ERC20 utilisé pour les enchères
-    const tokenAddress = "0xYourTokenAddressHere";
+    const tokenAddress = "0xMyTokenAddressHere";
 
     // Déploiement du contrat
     const SealedBidAuction = await ethers.getContractFactory("SealedBidAuction");
